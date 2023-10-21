@@ -25,6 +25,7 @@
     "express": "^4.17.1",
     "json-server": "^0.17.4",
     "nodemailer": "^6.7.0",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "query-string": "^7.0.0"
   }
 }

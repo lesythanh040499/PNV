@@ -46,5 +46,25 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Thanh",
+      "email": "kentkillboss@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": 2,
+      "name": "Thanh1",
+      "email": "thanh.le@stunited.vn",
+      "password": "123123"
+    },
+    {
+      "id": 3,
+      "name": "Thanh3",
+      "email": "lesythanh040499@gmail.com",
+      "password": "123123"
+    }
+  ]
 }

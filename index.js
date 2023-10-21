@@ -52,3 +52,19 @@ const fetchProducts = async () => {
     })
     .join("");
 })();
+
+const sendMail = () => {
+  const name = document.getElementById("name");
+  const email = document.getElementById("email");
+  const message = document.getElementById("subject");
+
+  const serviceId = "service_jdf0c8z";
+  const template = "template_uu1h1iq";
+
+  emailjs
+    .send(serviceId, template, { name: name, email: email, message: message })
+    .then((res) => {
+      console.log(res, "res");
+      alert("Send successfully");
+    });
+};
