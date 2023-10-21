@@ -1,0 +1,30 @@
+{
+  "name": "pnv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "nodemon api/server.js",
+    "start-be": "nodemon express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stunited-thanhle/PNV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stunited-thanhle/PNV/issues"
+  },
+  "homepage": "https://github.com/stunited-thanhle/PNV#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "json-server": "^0.17.4",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hair 1",
+      "author": "Thanh",
+      "img": "https://images.unsplash.com/photo-1682685796014-2f342188a635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "price": 79.99,
+      "discount": null,
+      "new": true
+    },
+    {
+      "id": 2,
+      "title": "Hair 2",
+      "author": "Thanh",
+      "img": "https://images.unsplash.com/photo-1682685796014-2f342188a635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "price": 20.99,
+      "discount": 20,
+      "new": false
+    },
+    {
+      "id": 3,
+      "title": "Hair 3",
+      "author": "Thanh",
+      "img": "https://images.unsplash.com/photo-1682685796014-2f342188a635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "price": 20.99,
+      "discount": null,
+      "new": true
+    },
+    {
+      "id": 4,
+      "title": "Hair 4",
+      "author": "Thanh",
+      "img": "https://images.unsplash.com/photo-1682685796014-2f342188a635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "price": 20.99,
+      "discount": 15.5,
+      "new": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
